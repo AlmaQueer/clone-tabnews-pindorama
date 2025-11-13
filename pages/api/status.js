@@ -1,7 +1,5 @@
 function status(request, response) {
-  response
-    .status(200)
-    .send("Alunos do pindorama.dev.br são alunos acima da média");
+  response.status(200).json({ chave: "são acima da media" });
 }
 
 export default status;
