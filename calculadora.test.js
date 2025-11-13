@@ -1,3 +1,3 @@
-test("nome do test", function () {
-  console.log("E assim, funciona?");
+test("nome do test", () => {
+  console.log("E agora?");
 });
