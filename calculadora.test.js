@@ -1,5 +1,3 @@
-test("nome do test", callbackFunction);
-
-function callbackFunction() {
-  console.log("esta funcao está sendo chamada?");
-}
+test("nome do test", function () {
+  console.log("E assim, funciona?");
+});
